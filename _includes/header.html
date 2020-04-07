@@ -5,8 +5,8 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">Index</a>
-    {% if page.previous.url %}<a style="margin-left:60px;"class="site-title" href="/index{{page.previous.url}}"><</a>{% else %}<p style="padding-left:60px; color:#DCDCDC" class="site-title"><</p>{% endif %}
-    {% if page.next.url %}<a style="margin-left:60px;" class="site-title" href="/index{{page.next.url}}">></a>{% else %}<p style="padding-left:60px; color:#DCDCDC" class="site-title">></p>{% endif %}
+    {% if page.previous.url %}<a style="margin-left:60px;"class="site-title" href="{{page.previous.url}}"><</a>{% else %}<p style="padding-left:60px; color:#DCDCDC" class="site-title"><</p>{% endif %}
+    {% if page.next.url %}<a style="margin-left:60px;" class="site-title" href="{{page.next.url}}">></a>{% else %}<p style="padding-left:60px; color:#DCDCDC" class="site-title">></p>{% endif %}
 
 
 
