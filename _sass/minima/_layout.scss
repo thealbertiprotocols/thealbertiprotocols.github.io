@@ -29,7 +29,7 @@
 }
 
 .site-title {
-  @include relative-font-size(0.95);
+  @include relative-font-size($custom-font-size);
   font-weight: $base-font-weight;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -94,7 +94,7 @@
     color: $text-color;
     line-height: $base-line-height;
     display: block;
-    @include relative-font-size(0.95);
+    @include relative-font-size($custom-font-size);
     padding: 5px 10px;
 
     // Gaps between nav items, but not on the last one
@@ -145,7 +145,7 @@
 }
 
 .footer-heading {
-  @include relative-font-size(0.95);
+  @include relative-font-size($custom-font-size);
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -229,7 +229,7 @@
 }
 
 .post-list-heading {
-  @include relative-font-size(0.95);
+  @include relative-font-size($custom-font-size);
   margin-top: $spacing-unit * 0.6;
 }
 
@@ -249,7 +249,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(0.95);
+  @include relative-font-size($custom-font-size);
 }
 
 
@@ -282,11 +282,11 @@ h5.post-cat {
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(0.95);
+  @include relative-font-size($custom-font-size);
   line-height: 1.15;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(0.95);
+    @include relative-font-size($custom-font-size);
   }
 }
 
@@ -323,7 +323,7 @@ h5.post-cat {
     @include relative-font-size(1.0625);
   }
   p {
-    @include relative-font-size(0.95);
+    @include relative-font-size($custom-font-size);
   }
 }
 
