@@ -30,7 +30,7 @@
 
 .site-title {
   @include relative-font-size(0.95);
-  font-weight: 300;
+  font-weight: $base-font-weight;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
