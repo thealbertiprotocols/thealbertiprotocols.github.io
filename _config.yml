@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Alberti Protocols is an ongoing project dealing with the multi-faceted literature
   of Leon Battista Alberti. Beyond teachings and best-practice transcriptions, Alberti’s
   extensive writings will be investigated as (social, mathematical, etc.) encodings of a
-  cognitive body that precedes architecture as a material practice.
+  cognitive body that precedes the material practice of architecture.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thealbertiprotocols.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
