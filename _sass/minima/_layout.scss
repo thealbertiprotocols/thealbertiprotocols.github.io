@@ -386,3 +386,7 @@ h5.post-cat {
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+.title-image {
+  max-width: 400px;
+}
